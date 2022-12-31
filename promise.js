@@ -1,7 +1,7 @@
-//======================================================PROMISE=============================================
+// //======================================================PROMISE=============================================//
 
-// As soon as a promise is created, it's status is automatically "Pending". Once a promise is pending, it can only get to a resolve or reject state and nothing else after.
-//chaining promises is a very important concept. If you return anthing in the .then block you would have to chain it to another .then in order to get the value and print it out on the screen. ".then" is a way to get the value from a promise. The ".catch" block handles the value of reject
+// // As soon as a promise is created, it's status is automatically "Pending". Once a promise is pending, it can only get to a resolve or reject state and nothing else after.
+// // chaining promises is a very important concept. If you return anthing in the .then block you would have to chain it to another .then in order to get the value and print it out on the screen. ".then" is a way to get the value from a promise. The ".catch" block handles the value of reject
 
 // const myPromise = new Promise((resolve, reject) => {
 //   setTimeout(() => {
@@ -22,9 +22,9 @@
 //   });
 // //
 
-//=====================PROMISE EXERCISES=======================//
+// //=====================PROMISE EXERCISES=======================//
 
-//1
+// 1;
 
 // console.log("Program started");
 // const myPromise = new Promise((resolve, reject) => {
@@ -63,7 +63,7 @@
 // console.log(myPromise);
 // console.log("Program in progress");
 
-//2
+// 2;
 // console.log("Program started");
 
 // const myPromise = new Promise((resolve, reject) => {
@@ -88,7 +88,7 @@
 //     console.log(value);
 //   });
 
-//3
+// 3;
 // console.log("Program started");
 
 // const myPromise = new Promise((resolve, reject) => {
@@ -131,7 +131,7 @@
 //     console.log(value3);
 //   });
 
-//4
+// 4;
 // const myPromise = new Promise((resolve, reject) => {
 //   setTimeout(() => {
 //     resolve(10);

@@ -40,9 +40,16 @@
 
 // console.log(mappedArray);
 
-const array = [];
+// const array = [];
 
-for (let index = 1; index <= 100; index++) {
-  array.push(index + 5);
+// for (let index = 1; index <= 100; index++) {
+//   array.push(index + 5);
+// }
+// console.log(array);
+
+function logName() {
+  const employeeName = "ekeopre";
+  console.log(employeeName);
 }
-console.log(array);
+
+logName();
