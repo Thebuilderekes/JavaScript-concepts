@@ -47,9 +47,31 @@
 // }
 // console.log(array);
 
-function logName() {
-  const employeeName = "ekeopre";
-  console.log(employeeName);
-}
+// function logName() {
+//   const employeeName = "ekeopre";
+//   console.log(employeeName);
+// }
 
-logName();
+// logName();
+
+// {
+//   candy : "sour lo",
+//   quantity: 10
+// }
+
+// const myObject = (candy){
+
+// }
+
+const hello = () => {
+  const person = {
+    name: "ekeopre",
+  };
+  return person;
+};
+
+const hi = (person) => {
+  person.age = 30;
+};
+
+console.log(hello());

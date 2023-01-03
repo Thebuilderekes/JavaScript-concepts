@@ -88,7 +88,7 @@
 //     console.log(value);
 //   });
 
-// 3;
+// exercise 3;
 // console.log("Program started");
 
 // const myPromise = new Promise((resolve, reject) => {

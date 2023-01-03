@@ -1,7 +1,6 @@
 // @ts-nocheck
 // const cities = ["Lagos", "Calabar", "Port Harcourt"]
 
-
 // const bigCities = cities.map(city => city.toUpperCase())
 
 // console.log(bigCities)
@@ -9,9 +8,8 @@
 //   const practice = [25, 26, 27, 28, 29, 30]
 
 //   const squaredNumbers = practice.map((number) => number **2 )
-  
-//   console.log(squaredNumbers);
 
+//   console.log(squaredNumbers);
 
 // const bools = ["true", "true", "false", "true", "false", "false"]
 
@@ -25,7 +23,6 @@
 
 // console.log(newArray);
 
-
 // const prices = [1.23, 19.99, 85.2, 32.87, 8, 5.2]
 
 // const taxedPrices = prices.map( (price) => {
@@ -35,11 +32,10 @@
 //   }
 //      return price
 
-// } ) 
+// } )
 
 // console.log(prices);
 // console.log(taxedPrices);
-
 
 // const items = ["light", "banana", "phone", "book", "mouse"]
 
@@ -53,22 +49,9 @@
 // console.log(items);
 // console.log(plurals);
 
-
 //const array = [10, 20, 30, 40]
 //create an output that looks like [[10], [20], [30], [40]]
 
-//const matrix = array.map((number) => [number] ) 
+//const matrix = array.map((number) => [number] )
 
 //console.log(matrixyt)
-
-
-
-
-
-
-
-
-
-
-
-
