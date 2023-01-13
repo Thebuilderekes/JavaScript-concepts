@@ -1,17 +1,17 @@
-var car = {
+// var car = {
 
-    make : "bmw",
-    model : "745i",
-    year: 2010,
+//     make : "bmw",
+//     model : "745i",
+//     year: 2010,
 
-    getPrice : function(){
-        return 5000;
-    },
+//     getPrice : function(){
+//         return 5000;
+//     },
 
-    printDescription: function(){
-        console.log(this.make + "  " + this.model);
-    }
+//     printDescription: function(){
+//         console.log(this.make + "  " + this.model);
+//     }
 
-}
+// }
 
-car.printDescription()
+// car.printDescription()

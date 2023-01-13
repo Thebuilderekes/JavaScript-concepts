@@ -61,17 +61,28 @@
 
 // const myObject = (candy){
 
-// }
+//
 
-const hello = () => {
-  const person = {
-    name: "ekeopre",
-  };
-  return person;
-};
+// const numbers = [1, 2, 3, 4, 5, 6];
+// let sum = 0;
+// const getSum = () => {
+//   for (let index = 0; index < numbers.length; index++) {
+//     sum += numbers[index];
+//   }
 
-const hi = (person) => {
-  person.age = 30;
-};
+//   return sum;
+// };
 
-console.log(hello());
+// let result = getSum();
+// console.log(result);
+
+// const numbers = [1, 2, 3, 4, 5, 6];
+// const array = [];
+// const printIndex = () => {
+//   for (let index = 0; index < numbers.length; index++) {
+//     array.push(index);
+//   }
+//   return console.log(array);
+// };
+// let result = printIndex();
+// console.log(result);
