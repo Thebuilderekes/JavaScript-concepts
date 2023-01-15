@@ -1,4 +1,7 @@
+//DONT ADD STUFF ON THE PROTOYPES, THIS IS ONLY FOR LEARNING PURPOSES
+
 //Every object in JavaScript has acess to a prototype "__proto__" by default.
+//Object.prototype allows us to manipulate the general property of all objects within a given file. So whatever method is added on this will be added accross all objects used within that file.
 
 //----Prototype Chain-----//
 

@@ -86,3 +86,9 @@
 // };
 // let result = printIndex();
 // console.log(result);
+
+function logThis(...args) {
+  console.log(args);
+}
+
+logThis(1, 2, 3);
