@@ -5,8 +5,9 @@ let stocks = {
     toppings: ["chocolate", "peanuts"],
   };
   
-  let isShopOpen = true;
-  async function order(){
+let isShopOpen = true;
+
+async function order(){
     try{
          await abc;
     }
