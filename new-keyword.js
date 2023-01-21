@@ -1,4 +1,4 @@
-//"new" keyword stes up the this keyword  and the prototype
+//"new" keyword allows us to create new objects of a class so we can have access to the prototype of that object to have access to the prototype 
 
 function WebDevClass(name) {
   this.name = name;
