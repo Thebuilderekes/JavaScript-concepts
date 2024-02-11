@@ -1,15 +1,15 @@
 // @ts-nocheck
-// const cities = ["Lagos", "Calabar", "Port Harcourt"]
+ //const cities = ["Lagos", "Calabar", "Port Harcourt"]
 
-// const bigCities = cities.map(city => city.toUpperCase())
+ //const bigCities = cities.map(city => city.toUpperCase())
 
-// console.log(bigCities)
+ //console.log(bigCities)
 
-//   const practice = [25, 26, 27, 28, 29, 30]
+   const practice = [25, 26, 27, 28, 29, 30]
 
-//   const squaredNumbers = practice.map((number) => number **2 )
+   const squaredNumbers = practice.map((number) => number **2 )
 
-//   console.log(squaredNumbers);
+   console.log(squaredNumbers);
 
 // const bools = ["true", "true", "false", "true", "false", "false"]
 

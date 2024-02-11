@@ -1,3 +1,17 @@
+//FACTORY FUNCTION
+//A factory function is a function that returns an object, but isn't itself a class or constructor. As such, we invoke a factory function as a normal function without using the new operator. Using a factory function, we can easily create object instances without the complexity of classes and constructors!
+
+//example
+
+//function Basketball(color) {
+//  return {
+  //  color: color,
+   // numDots: 35000
+ // };
+//}
+
+
+
 function makeGreeting(language) {
   return function (firstname, lastname) {
 

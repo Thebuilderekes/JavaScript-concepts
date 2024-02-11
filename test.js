@@ -86,9 +86,52 @@
 // };
 // let result = printIndex();
 // console.log(result);
+// function factoryFunc(name, age){
 
-function logThis(...args) {
-  console.log(args);
+//     return function(){
+//         console.log(`my name is ${name} and i am ${age} years old `)
+//     }
+
+// }
+
+// const mikel = factoryFunc("mike", 21)
+
+// mikel()
+
+//let sodiumChloride = (function(){
+//    let chemicalFormula = 'NaCl';
+//    let molarMass = 58.44;
+//
+//    return {
+//      getProperties: function(){
+//        console.log(`Formula: ${chemicalFormula}`);
+//        console.log(`Molar Mass: ${molarMass} g/mol`);
+//      }
+//    };
+//  })();
+//
+//
+//
+//  sodiumChloride.getProperties()
+function addTwoNums(a, b) {
+	console.log(a + b);
 }
 
-logThis(1, 2, 3);
+function randomNum() {
+	return Math.floor(Math.random() * 10 + 1);
+}
+function specificNum() {
+	return 42;
+}
+
+var useRandom = true;
+
+var getNumber;
+
+if (useRandom) {
+	getNumber = randomNum;
+} else {
+	getNumber = specificNum;
+}
+
+addTwoNums(getNumber(), getNumber());

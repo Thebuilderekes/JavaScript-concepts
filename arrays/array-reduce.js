@@ -61,15 +61,15 @@
 
 //-------------------EXERCISE----------------------
 
-// const prices = [1.23, 19.99, 85.2, 32.87, 8, 5.2];
-// const afterTax = prices.reduce((result, price) => {
-// const tax = price * 0.2;
-//   if (price > 6) {
-//     return result + price;
-//   }
-//   return result + price + tax;
-// }, 0);
-// console.log(afterTax);
+ const prices = [1.23, 19.99, 85.2, 32.87, 8, 5.2];
+ const afterTax = prices.reduce((result, price) => {
+ const tax = price * 0.2;
+   if (price > 6) {
+     return result + price;
+   }
+   return result + price + tax;
+ }, 0);
+ console.log(afterTax);
 
 // const items = ["light", "banana", "phone", "book", "mouse"]
 //   .map((item) => item.toLocaleUpperCase())

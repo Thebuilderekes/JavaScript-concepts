@@ -1,12 +1,13 @@
 //Destrucuring allows for variables to be assigned to values in arrays, objects, maps and sets as seen below
 
 //1
-// const cities = ["Lagos", "Calabar", "Port Harcourt"];
+ const cities = ["Lagos", "Calabar", "Port Harcourt"];
 
 //commas can be used to represent variables thyat need to be omitted when assigning values to the variables as seeen below
-// const [lagos, calabar, portHarcourt] = cities;
+//
+const [sincity, lovecity, violentcity] = cities;
 
-// console.log(lagos, calabar, portHarcourt);
+console.log(sincity);
 
 //2
 // const cities = ["Lagos", "Calabar", "Port Harcourt"];

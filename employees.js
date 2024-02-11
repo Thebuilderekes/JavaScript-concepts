@@ -8,7 +8,7 @@ class EgovEmployee {
     firstName,
     lastName,
     department,
-    certificates,
+    [],
     gradeLevel
   ) {
     this.username = username;
@@ -16,7 +16,7 @@ class EgovEmployee {
     this.firstName = firstName;
     this.lastName = lastName;
     this.department = department;
-    this.certificates = certificates;
+    this.certificates = [];
     this.gradeLevel = gradeLevel;
   }
 
@@ -25,8 +25,7 @@ class EgovEmployee {
   }
 
   logout() {}
-
-  addCertificate(certificate) {
+    addCertificate(certificate) {
     this.certificates.push(certificate);
   }
 }
