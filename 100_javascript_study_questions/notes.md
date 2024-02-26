@@ -197,3 +197,34 @@ require you to use the ``return`` keyword.
 - Positional argument  - The regular ay of passing argumemets by placeholder variables
 - Named argument   - passing object as argument to have access to its properties
 - Argument objects - by using the `argument` object
+
+default parameter is when you explicitly set the value of a parameter into a function
+
+
+
+## Event handling
+Event handling is the process of resonding to user actions in a web page.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
