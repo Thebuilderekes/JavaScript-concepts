@@ -48,7 +48,6 @@ typeof returns a string of the type of the variable it is checking. You can rece
 
 
 ## Uninary, Binary and Ternary operators
-
 Uninary operators are operators that only have one operand like =
 e.g `x = 5`
 
@@ -60,7 +59,6 @@ Ternary operator
 this has to do with 3 operands
 
 e.g `personName ? "Ekeopre" : "no name"`
-
 
 
 ## Short circuit evaluation
@@ -75,9 +73,23 @@ Loose equality == does a type coersion while strict equality  === does not
 1 === "1" //false
 
 ## Spread vs rest operator
+Spread is used to copy an array or merge an array.
+Rest is used to represent the rest of an element of an array.
 
-Spread is used to copy an array or merge an array
 
-Rest is used to represent the rest of an element of an array
+## Arrays
+
+### Array methods
+spice method: array.splice(startIndex, deleteCount, ...itemstoAdd)
+
+### Difference between map and forEach method
+`map()` method is used when you want to modify each item and create a new array.
+
+`ForEach()` is used to modify an each item of an array to get a list of the modified items WITHOUT CREATING A NEW ARRAY.
+
+### What is array destructuring
+It allows you to extract elements from an array and assigning them to individual variables
+
+### Array-like objects
 
 
