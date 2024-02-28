@@ -201,9 +201,22 @@ require you to use the ``return`` keyword.
 default parameter is when you explicitly set the value of a parameter into a function
 
 
-
 ## Event handling
-Event handling is the process of resonding to user actions in a web page.
+Event handling is the process of responding to user actions in a web page.
+
+
+## The DOM
+What is the difference between HTML and DOM?
+what is HTML collection?
+
+### What are the ways to manipulate the DOM?
+What is the difference between the different ways?
+
+What is the difference between createElement() and cloneNode() methods?
+
+
+
+
 
 
 
